@@ -1,0 +1,94 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    background: #fff;
+    height: 50px;
+    width: 100%;
+    
+    
+
+    .nav-logo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img{
+            height: 40px;
+            width: 40px;
+        }
+        p{
+            font-size: 21px;
+            font-weight: 600;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+    }
+    .nav-menu{
+        margin-right: 100px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: center;
+        list-style: none;
+        
+        font-weight: 500;
+
+        li{
+
+            a{
+                cursor: pointer;
+                color: green;
+
+            }
+            
+        }
+        
+
+        hr{
+            width: 80%;
+            height: 3px;
+            border: none;
+            border-radius: 10px;
+            background: rgb(191, 17, 17);
+            margin-top: 5px;
+        }
+    }
+    .nav-login-cart{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        button{
+            border-radius: 20px;
+            width: 100px;
+            height: 30px;
+            border: none;
+            border: solid 1px gray;
+            background-color: #fff;
+            cursor: pointer;
+        }
+        button:active{
+            background: #f3f3f3;
+        }
+        img{
+            height: 25px;
+            width: 25px;
+            margin-top: 2px;
+        }
+
+        .nav-cart-counter{
+            display: flex;
+            width: 14px;
+            height: 15px;
+            font-size: 10px;
+            margin-top: -3px;
+            margin-left: -33px;
+            background: red;
+            color: #fff;
+            align-items: center;
+            justify-content: center;
+            border-radius: 11px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+    .foot-logo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        p{
+            font-size: 21px;
+            font-weight: 600;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    }
+    .foot-list{
+        margin-top: 14px;
+        margin-left: -20px;
+        ul{
+          display: flex;
+          flex-direction: row;
+          gap: 30px;
+          list-style: none;
+        }
+    }
+    .icons{
+        display: flex;
+        gap: 30px;
+        margin-top: 14px;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+    hr{
+        width: 80%;
+        background-color: rgb(237, 235, 235);
+        height: 0.3px;
+        margin-top: 14px;
+    }
+    p{
+        margin-top: 10px;
+        font-size: 13px;
+    }
+}
